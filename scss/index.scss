@@ -1,0 +1,26 @@
+@import "variables";
+@import "footer";
+
+
+h1 {
+  color: $primary-color;
+  background-color: $primary-color-comp;
+}
+
+h2 {
+  color: $primary-color-light;
+  background-color: $primary-color-dark;
+}
+
+
+
+
+@import "responsive";
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover , &:visited {
+    color: $primary-color-dark;
+  }
+}

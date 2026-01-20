@@ -1,0 +1,11 @@
+@media (max-width: $breackpoint-sm) {
+  h2 {
+    background-color: $primary-color;
+  }
+}
+
+@media (min-width: $breackpoint-lg) {
+  h2 {
+    background-color:$primary-color;
+  }
+}
